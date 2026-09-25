@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    background-color: #fff7fa;
+    color: #5b4550;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 85%;
+    max-width: 850px;
+    margin: 40px auto;
+}
+
+h1 {
+    text-align: center;
+    color: #c76b8a;
+    font-family: Georgia, serif;
+    margin-bottom: 8px;
+}
+
+h2 {
+    color: #b85c7c;
+    font-family: Georgia, serif;
+}
+
+h3 {
+    color: #a95674;
+    margin-bottom: 8px;
+}
+
+.bow {
+    text-align: center;
+    color: #d98ba5;
+    margin-bottom: 20px;
+}
+
+/* Navigation */
+
+nav {
+    text-align: center;
+    background-color: #f9dce7;
+    padding: 12px;
+    margin-bottom: 30px;
+    border: 1px solid #efbfd0;
+}
+
+nav a {
+    color: #9f4d6b;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #d06c8e;
+    text-decoration: underline;
+}
+
+/* Tasks */
+
+.task-card {
+    background-color: white;
+    border-left: 5px solid #e5a0b7;
+    padding: 15px 18px;
+    margin-bottom: 15px;
+}
+
+.task-card p {
+    margin: 6px 0;
+}
+
+.status {
+    color: #a95473;
+    background-color: #fdeaf1;
+    padding: 4px 9px;
+    font-size: 14px;
+}
+
+/* Profile and About */
+
+.profile-card,
+.about-card {
+    background-color: white;
+    border: 1px solid #efc5d3;
+    padding: 25px;
+    text-align: center;
+}
+
+.profile-card {
+    text-align: center;
+}
+
+.profile-card h2 {
+    margin-top: 0;
+}
+
+/* Empty message */
+
+.empty {
+    background-color: white;
+    border: 1px dashed #dfa0b5;
+    padding: 20px;
+    text-align: center;
+    color: #a76a80;
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+    color: #c4879d;
+    margin-top: 35px;
+    font-size: 13px;
+}
