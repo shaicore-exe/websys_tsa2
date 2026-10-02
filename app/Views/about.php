@@ -13,12 +13,18 @@
 
     <div class="bow">୨୧ ♡ ୨୧</div>
 
-    <nav>
-        <a href="/">Home</a>
-        <a href="/tasks">Task List</a>
-        <a href="/profile">Profile</a>
-        <a href="/about">About</a>
-    </nav>
+<nav>
+    <a href="<?= base_url('/') ?>">Home</a>
+    <a href="<?= base_url('/tasks') ?>">Task List</a>
+    <a href="<?= base_url('/profile') ?>">Profile</a>
+    <a href="<?= base_url('/about') ?>">About</a>
+
+    <?php if (session()->get('logged_in')): ?>
+        <a href="<?= base_url('/logout') ?>">Logout</a>
+    <?php else: ?>
+        <a href="<?= base_url('/login') ?>">Login</a>
+    <?php endif; ?>
+</nav>
 
     <div class="about-card">
 
